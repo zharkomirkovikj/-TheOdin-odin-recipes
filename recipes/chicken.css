@@ -1,0 +1,71 @@
+*{
+    background-color: #b3b300;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+
+img {
+    width: 35%;
+    height: auto;
+    border: 3px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    background-color: black;
+    width: 500px;
+    height: 3px;
+}
+
+.top{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.about.title{
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    font-size: 45px
+}
+
+.about p{
+    margin-left: 500px;
+    max-width: 330px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    background-color: black;
+    color: #b3b300;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.ingredients.title{
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    font-size: 25px
+}
+
+.ingredients.list{
+    font-size: 20px;
+    list-style-type: square;
+}
+
+.steps.title{
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    font-size: 25px
+}
+
+.steps.list{
+    font-size: 18px;
+    list-style-type:decimal;
+}

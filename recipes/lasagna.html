@@ -4,47 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lasagna.css" media="screen">
     <title>Lasagna Recipe</title>
 </head>
 <body>
-    <h1 id="header">World's Best Lasagna</h1>
-    <hr>
-    <h3><a href="../index.html">Home</a></h3>
-    <hr>
-    <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F07%2F11%2Fworlds-best-lasagna.jpeg" width="460px" height="320px">
-    <hr>
-    <h4>World's Best Lasagna</h2>
-    <p>It takes a little work but it's definitely worth it!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <hr>
+    <div class="top">
+        <h1 id="header">World's Best Lasagna</h1>
+        <button class="btn" onclick="window.location.href='../index.html'">Home</button>
+    </div>
 
-    <h4>Ingredients Needed</h4>
-    <ul>
-        <li>1 pound sweet italian sausage</li>
-        <li>¾ pound lean ground beef </li>
-        <li>½ cup minced onion </li>
-        <li>1 (28 ounce) can crushed tomatoes </li>
-        <li>2 (6 ounce) cans tomato paste </li>
-        <li>2 (6.5 ounce) cans canned tomato sauce </li>
-        <li>½ cup water </li>
-        <li>1 ½ teaspoons dried basil leaves  </li>
-        <li>½ teaspoon fennel seeds </li>
-    </ul>
+    <hr id="divider">
+
+    <div class="about">
+        <span class="about title"><strong>The Best Lasagna Ever</strong></span>
+        <p>It takes a little work but it's definitely worth it! <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F07%2F11%2Fworlds-best-lasagna.jpeg" width="460px" height="320px">
+    </div>
+
+    <div class="ingredients">
+        <span class="ingredients title">Ingredients Needed</span>
+        <ul class="ingredients list">
+            <li>1 pound sweet italian sausage</li>
+            <li>¾ pound lean ground beef </li>
+            <li>½ cup minced onion </li>
+            <li>1 (28 ounce) can crushed tomatoes </li>
+            <li>2 (6 ounce) cans tomato paste </li>
+            <li>2 (6.5 ounce) cans canned tomato sauce </li>
+            <li>½ cup water </li>
+            <li>1 ½ teaspoons dried basil leaves  </li>
+            <li>½ teaspoon fennel seeds </li>
+        </ul>
+    </div>
+
+    <br>
     <hr>
-    <h4>Steps</h4>
-    <ol>
-        <li>In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned. Stir in crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds, Italian seasoning, 1 teaspoon salt, pepper, and 2 tablespoons parsley. Simmer, covered, for about 1 1/2 hours, stirring occasionally.</li>
-        <br>
-        <li>Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain noodles, and rinse with cold water. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt.</li>
-        <br>
-        <li>Preheat oven to 375 degrees F (190 degrees C).</li>
-        <br>
-        <li>To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13-inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with one half of the ricotta cheese mixture. Top with a third of mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese.</li>
-        <br>
-        <li>Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes before serving.</li>
-    </ol>
+    <br>
+
+    <div class="steps">
+        <span class="steps title">Steps</span>
+        <ol class="steps list">
+            <li>In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned. Stir in crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds, Italian seasoning, 1 teaspoon salt, pepper, and 2 tablespoons parsley. Simmer, covered, for about 1 1/2 hours, stirring occasionally.</li>
+            <br>
+            <li>Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain noodles, and rinse with cold water. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt.</li>
+            <br>
+            <li>Preheat oven to 375 degrees F (190 degrees C).</li>
+            <br>
+            <li>To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13-inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with one half of the ricotta cheese mixture. Top with a third of mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese.</li>
+            <br>
+            <li>Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes before serving.</li>
+        </ol>
+    </div>
     <hr>
-    <a href="#header">Return To Top</a>
+    <a href="#header"><button class="btn">Return To Top</button></a>
     <hr>
     <br>
 </body>

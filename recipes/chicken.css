@@ -22,8 +22,19 @@ hr{
 }
 
 .top{
+    background-color: white;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
+}
+
+#header{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#divider{
+    margin-top: 40px;
 }
 
 .about.title{
